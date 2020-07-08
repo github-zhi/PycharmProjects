@@ -1,0 +1,81 @@
+官方文档：http://docs.pytest.org/en/latest/contents.html#toc
+
+四、参数化使用
+    @pytest.mark.parametrize(argnames, argvalues)
+    argnames:要参数化的变量，string(逗号分割)，list,tuple
+    argvalues:参数化的值，list,list[tuple]
+
+  yaml,参数或-，与参数值之前一定要加空格，yaml文件中不能同时存在tuple和list，只能是一种
+
+    list
+      - 1
+      - 2
+      - 3
+
+    dict字典，默认打印的只是key值
+      by:id
+      locator:name
+      action:click
+
+    嵌套：list
+    -
+      -by:id
+      -locator:name
+      -action:click
+
+  加载yaml文件：
+  yaml.safe_load(open("./data.yaml"))
+
+快捷键：
+pycharm多行代码同时缩进：Tab
+pycharm多行代码同时左移：shift+Tab
+pycharm多行代码同时注释：Ctrl + /
+查找替换:CTRL + R 出现查找替换框
+
+https://docs.pytest.org/en/stable/
+https://www.cnblogs.com/superhin/p/11677240.html
+
+六、allure
+文档：https://docs.qameta.io/allure/
+ 1.先执行文件并把结果保存
+    pytest test_allure_demo1.py --alluredir=./report/1
+ 2.查看测试报告
+        2.1(在pycharm中执行，'alluer' 不是内部或外部命令,可以使用git bash进入到目录中执行)
+        allure serve ./report/1
+        2.2生成报告
+        allure generate ./report/1 -o ./report/1/ --clean
+        查看
+        allure open -h 127.0.0.1 -p 8883 ./report/1
+ 3.allure特性-feature、story、step
+    feature相当于一个功能，一个大的模块，将case分类到某个feature中，报告中behaviore中显示，相当于testsuite;
+    story相当于对应这个功能或者模块下的不同场景、分支功能，属于feature之下的结构，报告在feature中显示，相当于testcase;
+    测试过程中，关键步骤，在app\web自动化测试中，建议每切换一个新的页面当做一个step,
+        用法：@allure.step()只能以装饰器的形式放在类或者方法上面；
+               with allure.step()可以放在测试用例方法里面，但测试步骤的代码需要被该语句包含。
+ 4.场景：在报告中看到测试功能，子功能或场景，测试步骤，包括附加信息
+    解决：功能上加@allure.feature('功能名称')
+           子功能@allure.story('子功能名称')
+           步骤上@allure.step('步骤细节')
+           附加信息@allure.attach('具体信息')，可是数据、文本、图片、视频、网页
+    加限制运行：pytest 文件名 --allure_feature '名称'
+
+八、
+    pytest执行顺序
+    pip install pytest-ordering
+    pip install pytest-ordering -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+    @pytest.mark.run(order=2)
+
+    pytest用例依赖
+    pip install pytest-dependency
+    pip install pytest-dependency -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+    @pytest.mark.dependency(name='cart')
+    @pytest.mark.dependency(depends='cart')
+
+    多线程并行与分布式执行
+    pip install pytest-xdist
+    pytest -n 3
+
+    pytest.ini
+
+    勾子conftest.py,
+    pytest check_a.py --env dev -vs

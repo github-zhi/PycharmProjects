@@ -1,0 +1,52 @@
+{
+  "uid" : "c334ca16d69de8cc",
+  "name" : "test_success",
+  "fullName" : "test_allure_demo1#test_success",
+  "historyId" : "0c3f9860db2f5497802570c0da264477",
+  "time" : {
+    "start" : 1594180877098,
+    "stop" : 1594180877098,
+    "duration" : 0
+  },
+  "description" : "this test succeeds",
+  "descriptionHtml" : "<p>this test succeeds</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_allure_demo1"
+  }, {
+    "name" : "host",
+    "value" : "zhi"
+  }, {
+    "name" : "thread",
+    "value" : "5412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c334ca16d69de8cc.json",
+  "parameterValues" : [ ]
+}

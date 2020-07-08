@@ -1,0 +1,16 @@
+一、涉及unittest基本使用，不用单独安装，内置的unittest,import即可用
+二、setup\teardown的用法
+三、测试用例执行过程
+    1.首先是要写好TestCase
+    2.然后由TestLoader加载TestCase到TestSuite
+    3.然后由TextTestRunner来运行TestSuite
+    4.运行结果保存在TextTestResult中
+    5.整个过程集成在unittest.main模块中
+    6.TestCase可以是多个，TestSuite也可以是多个
+四、4种执行方法
+    1.unittest.main()
+    2.加入容器中执行。只针对部分用例执行
+    3.同时测多个类
+    4.匹配某个目录下所有以test开头的py文件，执行这些文件下的所有测试用例
+五、测试报告
+https://github.com/huilansame/HTMLTestRunner_PY3
