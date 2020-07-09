@@ -1,0 +1,12 @@
+首页PageObject
+    1.立即注册
+        点击立即注册
+        return立即注册PageObject
+    2.企业登录
+        点击企业登录
+        return企业登录PageObject
+
+
+1.page/testcase
+2.main.py
+3.base_page,公共的类

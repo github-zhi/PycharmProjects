@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c551a0bf-8671-45cb-9d58-45b406a8c75e" name="Default Changelist" comment="" />
+    <list default="true" id="c551a0bf-8671-45cb-9d58-45b406a8c75e" name="Default Changelist" comment="all">
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/.idea/Practice_selenium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/ReadMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_LS_1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_LS_1/test1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_LS_1/test_cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_LS_1/test_login_debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/Page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/Page/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/Page/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/Page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/Page/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/TestCase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/TestCase/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/案例说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_actions6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_baidu_selenium_allure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_browser8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_file_upload10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_js9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_wait4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_window_frame7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest_2/HTMLTestRunner_PY3_report" beforeDir="false" afterPath="$PROJECT_DIR$/Unittest_2/HTMLTestRunner_PY3_report" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +49,11 @@
   <component name="ProjectId" id="1eM6OagMpx2PeFrDsHHeIT3uw8h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -172,6 +202,14 @@
       <option name="presentableId" value="Default" />
       <updated>1594119083635</updated>
     </task>
+    <task id="LOCAL-00001" summary="all">
+      <created>1594213635643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594213635643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,5 +231,7 @@
       <path value="$PROJECT_DIR$/HTMLTestRunner_PY3_report" />
       <path value="$PROJECT_DIR$/Unittest_2/HTMLTestRunner_PY3_report" />
     </ignored-roots>
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
 </project>
