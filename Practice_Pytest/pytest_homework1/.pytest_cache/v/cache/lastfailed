@@ -1,0 +1,15 @@
+{
+  "check_a.py::CheckDemo::test_b": true,
+  "test_cal.py::TestCal1::test_add1[0.1-0.2-0.3]": true,
+  "test_cal.py::TestCal1::test_add1[1.1-2.2-3.3]": true,
+  "test_cal.py::TestCal1::test_add1[10.1-0.2-10.3]": true,
+  "test_cal.py::TestCal1::test_add[0.1-0.2-0.3]": true,
+  "test_cal.py::TestCal1::test_add[1.1-2.2-3.3]": true,
+  "test_cal.py::TestCal1::test_add[10.1-0.2-10.3]": true,
+  "test_cal.py::TestCal2::test_sub[-10--8--19]": true,
+  "test_cal.py::TestCal2::test_sub[1-2-3]": true,
+  "test_cal.py::TestCal2::test_yaml": true,
+  "test_cal.py::TestCal::test_add0[1.1-2.2-3.3]": true,
+  "test_cal.py::TestCal::test_add0[9999-8888-9999]": true,
+  "test_cal.py::TestCal::test_add[1.1-2.2-3.3]": true
+}

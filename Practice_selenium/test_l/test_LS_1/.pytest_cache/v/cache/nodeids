@@ -1,0 +1,4 @@
+[
+  "test_cookie.py::TestCookie::test_get_cookie",
+  "test_cookie.py::TestCookie::test_cookie_login"
+]

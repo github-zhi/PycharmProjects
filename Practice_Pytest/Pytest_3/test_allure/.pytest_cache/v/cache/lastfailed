@@ -1,0 +1,7 @@
+{
+  "test_allure_demo1.py::test_broken": true,
+  "test_allure_demo1.py::test_failure": true,
+  "test_allure_feature.py": true,
+  "test_allure_feature.py::TestLogin::test_loign_password": true,
+  "test_baidu_demo.py": true
+}

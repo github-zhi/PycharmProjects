@@ -1,0 +1,21 @@
+[
+  "test_demo1.py::TestDemo1::test_baidu",
+  "test_wait4.py::TestHogwars::test_hogwards",
+  "test_wait4.py::TestWait::test_hogwards",
+  "test_wait4.py::TestWait::test_wait_expected",
+  "test_actions6.py::TestActionChains::test_case_click",
+  "test_actions6.py::TestActionChains::test_click",
+  "test_actions6.py::TestActionChains::test_moveto",
+  "test_actions6.py::TestActionChains::test_drag_drop",
+  "test_actions6.py::TestActionChains::test_keys",
+  "test_actions6.py::TestTouchAction::test_touchaction_scrollbottom",
+  "test_actions6.py::TestTouchAction::test_form",
+  "test_window_frame7.py::TestWindow::test_window",
+  "test_window_frame7.py::TestFrame::test_frame",
+  "test_browser8.py::TestBrowser::test_browser",
+  "test_js9.py::TestJS::test_js_scroll",
+  "test_js9.py::TestJS::test_js_datatime",
+  "test_file_upload10.py::TestFile::test_file_upload",
+  "test_file_upload10.py::test_frame",
+  "test_file_upload10.py::TestFile::test_alert"
+]

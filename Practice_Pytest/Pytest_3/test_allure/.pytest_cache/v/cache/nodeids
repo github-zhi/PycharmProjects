@@ -1,0 +1,17 @@
+[
+  "test_allure_demo1.py::test_success",
+  "test_allure_demo1.py::test_failure",
+  "test_allure_demo1.py::test_skip",
+  "test_allure_demo1.py::test_broken",
+  "test_allure_feature.py::TestLogin::test_loign_password",
+  "test_allure_feature.py::TestLogin::test_login_username",
+  "test_allure_feature.py::TestLogin::test_login_fail",
+  "test_allure_feature.py::TestLogin::test_login_success",
+  "test_baidu_demo.py::test_step_demo[allure]",
+  "test_baidu_demo.py::test_step_demo[pytest]",
+  "test_baidu_demo.py::test_step_demo[time]",
+  "test_baidu_demo.py::test_step_demo",
+  "test_baidu_demo.py::test_step_demo2[allure]",
+  "test_baidu_demo.py::test_step_demo2[pytest]",
+  "test_baidu_demo.py::test_step_demo2[time]"
+]

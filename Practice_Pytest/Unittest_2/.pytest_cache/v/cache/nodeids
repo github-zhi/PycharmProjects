@@ -1,0 +1,9 @@
+[
+  "test_unittets.py::demo::test_case01",
+  "test_unittets.py::demo::test_case02",
+  "test_unittets.py::Demo::test_case01",
+  "test_unittets.py::Demo::test_case02",
+  "test_unittets.py::Demo::test_case03",
+  "test_unittets.py::Demo1::test_case04",
+  "test_unittets.py::Demo1::test_case05"
+]
