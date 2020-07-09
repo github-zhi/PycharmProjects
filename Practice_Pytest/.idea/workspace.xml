@@ -10,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_LS_1/test1.xls" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_LS_1/test_cookie.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_LS_1/test_login_debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_LS_2/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/Page/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/Page/base_page.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice_selenium/test_l/test_PageObject/Page/login.py" afterDir="false" />

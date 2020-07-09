@@ -1,0 +1,43 @@
+1594290258590	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilelk8tXf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594290261120	Marionette	INFO	Listening on port 56033
+1594290261274	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594290277254	Marionette	INFO	Stopped listening on port 56033
+[Child 20428, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1594290518662	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileifoNii"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594290521047	Marionette	INFO	Listening on port 56254
+1594290521301	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://wwcdn.weixin.qq.com/node/wwmng/wwmng/js/var/global$64cbe9b0.js_db/Y80W7X/W35X/W35X/W35X/W35X/W35X/W31XY4ZZZ/W13XYg000W7XY300000W13X/V.js, line 1: TypeError: o is null
+1594290524923	Marionette	INFO	Stopped listening on port 56254
+console.error: services.settings: 
+  main/messaging-experiments Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1594290563138	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileljwws9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594290565622	Marionette	INFO	Listening on port 56343
+1594290565771	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://wwcdn.weixin.qq.com/node/wwmng/wwmng/js/var/global$64cbe9b0.js_db/Yg0W7X/W35X/W35X/W35X/W35X/W35X/W35X/ZZZ1000000W15XY1000ZY400000Y40000ZY200400W8XY8Z/V.js, line 45: TypeError: e(...) is not a function
+1594290569099	Marionette	INFO	Stopped listening on port 56343
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1594290597287	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileSCG4cQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594290599603	Marionette	INFO	Listening on port 56427
+1594290599926	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://wwcdn.weixin.qq.com/node/wwmng/wwmng/js/var/global$64cbe9b0.js_db/Yg0W7X/W35X/W35X/W35X/W35X/W35X/W35X/ZZZ1000000W15XY1000ZY400000Y40000ZY200400W8XY8Z/V.js, line 45: TypeError: e(...) is not a function
+1594290633220	Marionette	INFO	Stopped listening on port 56427
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
