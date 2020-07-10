@@ -9,7 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 class TestCookie():
 
     def setup(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
         # 打开页面
@@ -42,27 +42,27 @@ class TestCookie():
             if res is not None:
                 break
 
-        # 通过显示等待的方式，等待‘导入通讯录’元素可被点击
-        WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable
-                    ((By.XPATH, "//div[@class='index_service']//a[2]")))
-        self.driver.find_element(By.XPATH, "//div[@class='index_service']//a[2]").click()
-
-        # 通过显示等待的方式，等待‘上传文件’元素可见
-        WebDriverWait(self.driver, 10).until(
-            expected_conditions.presence_of_element_located((By.ID, "js_upload_file_input")))
-
-        # 上传文件
-        self.driver.find_element(By.XPATH, "//input[@id='js_upload_file_input']").\
-            send_keys(r"F:\PycharmProjects\Practice_selenium\test_l\test_LS_1\test1.xls")
-
-        # 通过显示等待的方式，等待‘已上传文件名’元素可见
-        WebDriverWait(self.driver, 10).until(
-            expected_conditions.presence_of_element_located((By.ID, "upload_file_name")))
-        # 获取文件名
-        assert_ele = self.driver.find_element(By.ID, "upload_file_name").text
-        print(assert_ele)
-
-        # 校验文件名
-        assert assert_ele == "test1.xls"
-        time.sleep(30)
+        # # 通过显示等待的方式，等待‘导入通讯录’元素可被点击
+        # WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable
+        #             ((By.XPATH, "//div[@class='index_service']//a[2]")))
+        # self.driver.find_element(By.XPATH, "//div[@class='index_service']//a[2]").click()
+        #
+        # # 通过显示等待的方式，等待‘上传文件’元素可见
+        # WebDriverWait(self.driver, 10).until(
+        #     expected_conditions.presence_of_element_located((By.ID, "js_upload_file_input")))
+        #
+        # # 上传文件
+        # self.driver.find_element(By.XPATH, "//input[@id='js_upload_file_input']").\
+        #     send_keys(r"F:\PycharmProjects\Practice_selenium\test_l\test_LS_1\test1.xls")
+        #
+        # # 通过显示等待的方式，等待‘已上传文件名’元素可见
+        # WebDriverWait(self.driver, 10).until(
+        #     expected_conditions.presence_of_element_located((By.ID, "upload_file_name")))
+        # # 获取文件名
+        # assert_ele = self.driver.find_element(By.ID, "upload_file_name").text
+        # print(assert_ele)
+        #
+        # # 校验文件名
+        # assert assert_ele == "test1.xls"
+        time.sleep(3000)
 

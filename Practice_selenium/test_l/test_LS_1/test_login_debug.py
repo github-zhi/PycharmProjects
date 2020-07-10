@@ -13,4 +13,4 @@ class TestLogin:
         # 指定了一个调试地址
         option.debugger_address = "localhost:9222"
         driver = webdriver.Chrome(options=option)
-        driver.get("https://work.weixin.qq.com/wework_admin/frame#contacts")
+        driver.get("https://work.weixin.qq.com/wework_admin/frame#index")

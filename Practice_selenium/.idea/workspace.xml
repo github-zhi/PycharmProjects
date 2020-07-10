@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e13a8bc-b899-4ca6-aa8e-7711ebfdbf15" name="Default Changelist" comment="selenium">
-      <change beforePath="$PROJECT_DIR$/../Practice_Pytest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_Pytest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/add_member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/contacts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/contacts_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/testcase/test_add_member.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practice_Pytest/Unittest_2/HTMLTestRunner_PY3_report" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_Pytest/Unittest_2/HTMLTestRunner_PY3_report" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/cookie.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/cookie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/test_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/test_cookie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/test_login_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/test_login_debug.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,16 +39,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_l" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\PycharmProjects\Practice_selenium\test_l\test_PageObject\Page" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\Practice_selenium\test_l" />
       <recent name="F:\PycharmProjects\Practice_selenium\test_l\test_LS_1" />
       <recent name="F:\PycharmProjects\Practice_selenium\test_l\test_PageObject\TestCase" />
-      <recent name="F:\PycharmProjects\Practice_selenium\test_l" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\Practice_selenium\test_l\test_PageObject\Page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -49,7 +63,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_cookie.TestCookie.test_cookie_login">
+  <component name="RunManager" selected="Python tests.pytest for test_add_member.TestAddMember.test_add_memeber (1)">
+    <configuration name="pytest for test_add_member.TestAddMember.test_add_memeber (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Practice_selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS2_work2/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_member.TestAddMember.test_add_memeber&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_add_member.TestAddMember.test_add_memeber" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Practice_selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS2_work1/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_member.TestAddMember.test_add_memeber&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_cookie.TestCookie.test_cookie_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Practice_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,58 +124,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_file_upload10.TestFile.test_alert" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login_debug.TestLogin.test_debug_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Practice_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_file_upload10.TestFile.test_alert&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_file_upload10.test_frame" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Practice_selenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_file_upload10.test_frame&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_register.TestRegister.test_register" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Practice_selenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_PageObject/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_register.TestRegister.test_register&quot;" />
+      <option name="_new_target" value="&quot;test_login_debug.TestLogin.test_debug_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_add_member.TestAddMember.test_add_memeber (1)" />
         <item itemvalue="Python tests.pytest for test_cookie.TestCookie.test_cookie_login" />
+        <item itemvalue="Python tests.pytest for test_login_debug.TestLogin.test_debug_login" />
         <item itemvalue="Python tests.pytest for test_cookie.TestCookie.test_get_cookie" />
-        <item itemvalue="Python tests.pytest for test_register.TestRegister.test_register" />
-        <item itemvalue="Python tests.pytest for test_file_upload10.TestFile.test_alert" />
-        <item itemvalue="Python tests.pytest for test_file_upload10.test_frame" />
+        <item itemvalue="Python tests.pytest for test_add_member.TestAddMember.test_add_memeber" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594303799988</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="直播2原码">
+      <created>1594362861580</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594362861580</updated>
+    </task>
+    <task id="LOCAL-00004" summary="PageObject 框架">
+      <created>1594363133728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594363133728</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium" />
+    <MESSAGE value="直播2原码" />
+    <MESSAGE value="PageObject 框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="PageObject 框架" />
   </component>
 </project>

@@ -1,4 +1,5 @@
 [
   "test_cookie.py::TestCookie::test_get_cookie",
-  "test_cookie.py::TestCookie::test_cookie_login"
+  "test_cookie.py::TestCookie::test_cookie_login",
+  "test_login_debug.py::TestLogin::test_debug_login"
 ]
