@@ -7,6 +7,7 @@ class BasePage:
 
 
     # 初始化，需要传入driver,加上WebDriver标记符，可以在使用driver.时联想出来，没有则不会联想出来，初始值为None
+
     def __init__(self, driver: WebDriver = None):
         # 默认无值
         self._driver = ""

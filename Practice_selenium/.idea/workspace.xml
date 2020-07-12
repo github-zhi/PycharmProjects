@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e13a8bc-b899-4ca6-aa8e-7711ebfdbf15" name="Default Changelist" comment="selenium">
-      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/add_member.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/contacts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/contacts_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/page/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_l/test_LS2_work2/testcase/test_add_member.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice_Pytest/Unittest_2/HTMLTestRunner_PY3_report" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_Pytest/Unittest_2/HTMLTestRunner_PY3_report" afterDir="false" />
+    <list default="true" id="8e13a8bc-b899-4ca6-aa8e-7711ebfdbf15" name="Default Changelist" comment="selenium 1">
+      <change afterPath="$PROJECT_DIR$/PO1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PO1/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/cookie.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/cookie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/test_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/test_cookie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_l/test_LS_1/test_login_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_LS_1/test_login_debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_l/test_PageObject/Page/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_l/test_PageObject/Page/base_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_member.TestAddMember.test_add_memeber (1)">
-    <configuration name="pytest for test_add_member.TestAddMember.test_add_memeber (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_contacts.TestContacts.test_import_member">
+    <configuration name="pytest for test_add_member.TestAddMember.test_add_memeber" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Practice_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,73 +68,72 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_member.TestAddMember.test_add_memeber" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_contacts.TestContacts.test_delete_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Practice_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS2_work1/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS2_work3/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_member.TestAddMember.test_add_memeber&quot;" />
+      <option name="_new_target" value="&quot;test_contacts.TestContacts.test_delete_member&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_cookie.TestCookie.test_cookie_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_contacts.TestContacts.test_import_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Practice_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS2_work3/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cookie.TestCookie.test_cookie_login&quot;" />
+      <option name="_new_target" value="&quot;test_contacts.TestContacts.test_import_member&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_cookie.TestCookie.test_get_cookie" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_l.test_LS2_work3.testcase.test_contacts.TestAddMember.test_add_memeber" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Practice_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS2_work3/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cookie.TestCookie.test_get_cookie&quot;" />
+      <option name="_new_target" value="&quot;test_l.test_LS2_work3.testcase.test_contacts.TestAddMember.test_add_memeber&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login_debug.TestLogin.test_debug_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_l.test_LS2_work3.testcase.test_contacts.TestAddMember.test_delete_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Practice_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_l/test_LS2_work3/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login_debug.TestLogin.test_debug_login&quot;" />
+      <option name="_new_target" value="&quot;test_l.test_LS2_work3.testcase.test_contacts.TestAddMember.test_delete_member&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_add_member.TestAddMember.test_add_memeber (1)" />
-        <item itemvalue="Python tests.pytest for test_cookie.TestCookie.test_cookie_login" />
-        <item itemvalue="Python tests.pytest for test_login_debug.TestLogin.test_debug_login" />
-        <item itemvalue="Python tests.pytest for test_cookie.TestCookie.test_get_cookie" />
-        <item itemvalue="Python tests.pytest for test_add_member.TestAddMember.test_add_memeber" />
+        <item itemvalue="Python tests.pytest for test_contacts.TestContacts.test_import_member" />
+        <item itemvalue="Python tests.pytest for test_contacts.TestContacts.test_delete_member" />
+        <item itemvalue="Python tests.pytest for test_l.test_LS2_work3.testcase.test_contacts.TestAddMember.test_delete_member" />
+        <item itemvalue="Python tests.pytest for test_l.test_LS2_work3.testcase.test_contacts.TestAddMember.test_add_memeber" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +176,35 @@
       <option name="project" value="LOCAL" />
       <updated>1594363133728</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="selenium 1">
+      <created>1594363209723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594363209723</updated>
+    </task>
+    <task id="LOCAL-00006" summary="selenium 1">
+      <created>1594363372961</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594363372961</updated>
+    </task>
+    <task id="LOCAL-00007" summary="3.实现page内的方法，与自动化框架开始结合4.调试">
+      <created>1594453136099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594453136099</updated>
+    </task>
+    <task id="LOCAL-00008" summary="5.创建base_page，把所有公共的方法进行封装.导入通讯录、添加成员、删除成员">
+      <created>1594453248799</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594453248799</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +224,9 @@
     <MESSAGE value="selenium" />
     <MESSAGE value="直播2原码" />
     <MESSAGE value="PageObject 框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="PageObject 框架" />
+    <MESSAGE value="selenium 1" />
+    <MESSAGE value="3.实现page内的方法，与自动化框架开始结合4.调试" />
+    <MESSAGE value="5.创建base_page，把所有公共的方法进行封装.导入通讯录、添加成员、删除成员" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.创建base_page，把所有公共的方法进行封装.导入通讯录、添加成员、删除成员" />
   </component>
 </project>
