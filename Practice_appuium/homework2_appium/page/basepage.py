@@ -10,15 +10,11 @@ class BasePage:
     def find(self, locator):
         return self._driver.find_element(*locator)
 
-
     def find_and_click(self, locator):
         return self._driver.find_element(*locator).click()
 
-
     def find_and_sendkeys(self, locator, value):
         return self._driver.find_element(*locator).send_keys(value)
-
-
 
     def find_by_scroll(self, text):
         return self._driver.find_element\
@@ -27,7 +23,7 @@ class BasePage:
              f'instance(0)).scrollIntoView(new UiSelector().text("{text}").instance(0));').click()
 
     def find_and_wait(self, text):
-        return WebDriverWait(self._driver, 5, 0.5).until_not\
+        WebDriverWait(self._driver, 5, 0.5).until_not\
             (lambda x: x.find_element_by_xpath(f"//*[@text='{text}']"))
 
     def back(self, num=1):
